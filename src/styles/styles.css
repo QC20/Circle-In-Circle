@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  body svg {
+    display: block;
+    width: 60%;
+    max-height: 60vh;
+  }
+  
+  body svg circle,
+  body svg path {
+    fill: none;
+    stroke: #555;
+    stroke-width: 2;
+    vector-effect: non-scaling-stroke;
+  }
+  
